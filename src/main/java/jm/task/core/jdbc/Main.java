@@ -19,13 +19,13 @@ public class Main {
         userService.saveUser("Mihail", "Mihailov", (byte) 20);
         userService.saveUser("Sidor", "Sidorov", (byte) 15);
 
-//        // Получение всех User из БД и вывод на консоль (toString())
+        // Получение всех User из БД и вывод на консоль (toString())
         userService.getAllUsers();
 
         // Очистка таблицы User
         userService.cleanUsersTable();
 
-        // Удаление таблицы
+//        // Удаление таблицы
         userService.dropUsersTable();
     }
 }
