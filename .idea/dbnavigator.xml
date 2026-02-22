@@ -42,6 +42,9 @@
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="2a6c8ec4-c43a-4a89-9e3f-ca79da942f91" />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="2a6c8ec4-c43a-4a89-9e3f-ca79da942f91" dataset="mydb.user" active-filter-id="" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
