@@ -18,7 +18,7 @@ public class Util {
     private static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/myDB";
     private static final String DB_USERNAME = "root";
-    private static final String DB_PASSWORD = "sapwd123";
+    private static final String DB_PASSWORD = "root";
 
     public static Connection getConnection() {
         try {
